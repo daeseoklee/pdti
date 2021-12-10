@@ -1,0 +1,10 @@
+{
+    "pocket_reg": {
+        "layers": [512, 256],
+        "dropout_p": 0.2
+    },
+    "protein_reg": {
+        "layers": [1024, 512],
+        "dropout_p": 0.2
+    }
+}

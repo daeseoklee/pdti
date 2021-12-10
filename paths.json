@@ -1,0 +1,40 @@
+{
+    "datasets":
+        {
+            "dataset": "./dataset",
+            "deepdta": "./dataset/DeepDTA",
+            "kiba_pdb": "./dataset/kiba_pdb",
+            "kiba_data": "./dataset/kiba_data"
+        },
+    "augmentation":
+        {
+            "kiba_msa": "./dataset/msa/kiba",
+            "davis_msa": "./dataset/msa/davis",
+            "uniprot_isoform": "./dataset/isoform/uniprot_sprot_varsplic.fasta",
+            "kiba_isoforms": "./dataset/isoform/kiba_isoforms.json"
+        },
+    "vocabs":
+        {
+            "pr_vocab": "./vocab/pr_vocab.txt",
+            "sm_vocab": "./vocab/sm_vocab.txt"
+        },
+    "model_config":
+        {
+            "model_config": "./model_config"
+        },
+    "pretrained":
+        {
+            "sample_pretrained_models": "./sample_pretrained_models"
+        },
+    "precomputed":
+        {
+            "precomputed_embeddings": "./precomputed/embeddings",
+            "precomputed_pockets": "./precomputed/pockets",
+            "metric_stats": "./precomputed/metric_stats.json",
+            "pocket_thresholds": "./precomputed/pocket_thresholds"
+        },
+    "others":
+        {
+            "train_logs": "./logs"
+        }
+}

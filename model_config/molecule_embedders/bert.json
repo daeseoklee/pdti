@@ -1,0 +1,9 @@
+{
+  "dim_hidden": 128,
+  "dim_intermediate": 512,
+  "max_seq_len": 100,
+  "num_att_heads": 8,
+  "dim_query": 16,
+  "num_layers": 8,
+  "size_vocab": 73
+}
